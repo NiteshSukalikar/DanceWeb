@@ -1,0 +1,148 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 18/12/2018.
+    Theme Name   : Dnce - Dance Studio Creative HTML Template.
+    Version      : 1.0.
+    Author       : UnifyTheme.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+   
+*/
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .top-header-section,.top-header-section.fixed {padding-left: 80px;padding-right: 80px;}
+}
+
+@media (max-width: 1199px) {
+  .our-team .main-content {padding-left: 50px;padding-right: 50px;}
+  .join-our-team .overlay p {width: 90%;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .top-header-section,.top-header-section.fixed {padding-left: 50px;padding-right: 50px;}
+  #mega-menu-holder>ul> li> a {font-size: 18px;margin: 0 14px;}
+  .about-us .right-content .wrapper {max-width: 465px;}
+  .about-us .right-content .wrapper .ceo-info .info {padding-left: 25px;}
+  .about-us .right-content .wrapper .ceo-info {padding-top: 75px;}
+  .single-blog-post .post-meta .blog-title {font-size: 35px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  .dark-color #mega-menu-holder>ul> li> a {color: #fff;}
+  .section-spacing,.theme-siddebar {padding-top: 100px;}
+  .section-spacing-bottom {padding-bottom: 100px;}
+  .top-header-section {padding: 30px 50px 10px;}
+  .top-header-section.fixed {padding: 5px 15px;}
+  .theme-main-menu .menu-wrapper {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top:0;
+    z-index: 1;
+  }
+  .top-header-section .right-widget,.theme-main-menu .logo {position: relative;z-index: 5;}
+  .top-header-section .right-widget {margin-right: 50px;}
+  .top-header-section .right-widget .cart-button a {margin-left: 0;}
+  .top-header-section .right-widget .cart-button a,.top-header-section .right-widget li .dropdown-button {line-height: 55px;}
+  .banner-one .camera_caption p br {display: none;}
+  .our-feature-one .single-block,.our-feature-one .single-block:last-child {margin: 55px 0 0;}
+  .about-us .left-content {display: none;}
+  .about-us .inner-container {width: 100%;}
+  .theme-title-two .theme-button-one {position: relative;margin-top: 15px; top:auto;}
+  .our-services {padding: 100px 0 80px;}
+  .our-services .theme-title-two {padding-bottom: 70px;}
+  .our-classes .main-container {padding-top: 70px;}
+  .theme-title-two .theme-button-two {position: relative;margin-top: 15px;}
+  .latest-articles .main-content {position: static;transform: none;}
+  .latest-articles {margin-bottom: 0;}
+  .partent-logo-section {padding: 100px 0;}
+  .latest-articles .overlay {padding: 100px 0 80px;}
+  .theme-footer-one .subscribe-form h2 {text-align: center;padding: 0 0 35px;}
+  .theme-footer-one .subscribe-form form {max-width: 500px;margin: 0 auto;}
+  .event-details .event-uppper-text .event-img {margin: 40px auto 0;}
+  .faq-section p:last-child {padding-bottom: 55px;}
+  .contact-meta-data {padding-left: 20px;}
+} 
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-one {height: 800px !important;}
+  .about-us .right-content .wrapper  {max-width: 690px;margin: 0 auto;}
+  .theme-inner-banner {padding-top: 260px;}
+  .event-details .event-bottom-data .details-box {padding-right: 0;padding-left: 20px;}
+  .isotop-menu-wrapper li {font-size: 18px;padding: 0 15px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .banner-one .camera_caption h1 br {display: none;}
+  .banner-one {height: 650px !important;}
+  .banner-one .camera_caption h1 {font-size: 40px; line-height: 50px;padding-top:100px; }
+  .banner-one .camera_caption p {font-size: 18px;line-height: 28px;padding-bottom: 50px;}
+  .theme-inner-banner {padding: 200px 0 90px;}
+  .theme-inner-banner .title {font-size: 45px;}
+  .theme-inner-banner .shape-one,.theme-inner-banner .shape-two,.theme-inner-banner .shape-three {display: none;}
+  .our-class-details .who-can-attend .play-video {margin-bottom: 40px;}
+  .our-class-details .class-banner .shape,.our-teachers .main-shape {display: none;}
+  .join-our-team .overlay {padding: 100px 0;}
+  .join-our-team {padding-left: 15px;padding-right: 15px;}
+  .isotop-menu-wrapper li {font-size: 15px;line-height: 45px;padding: 0 12px;}
+  .single-blog-post .post-meta {padding: 30px 20px 50px;}
+  .single-blog-post .post-meta .blog-title {font-size: 30px;line-height: 45px;}
+  .contact-address {margin-bottom: 60px;}
+  .google-map .map-canvas {height: 350px;}
+}
+/*(max-width: 767px)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-us .right-content .wrapper  {max-width: 510px;margin: 0 auto;}
+}
+/*(min-width: 576px) and (max-width: 767px)*/
+
+@media (max-width: 575px) {
+  .top-header-section {padding-left: 15px;padding-right: 15px;}
+  .about-us .right-content .wrapper  {max-width: 100%;padding: 0 15px;}
+  .about-us .right-content .wrapper .ceo-info .info {width: 100%;padding: 20px 0 0;}
+  .about-us .right-content .wrapper .ceo-info {padding: 65px 0;}
+  .our-feature-one .single-block {padding: 40px 15px 35px;}
+  .our-fact .strategy-section .strategy-block:last-child>div {margin-top: 30px;}
+  .short-banner h2 br,.short-banner:before,.theme-title-one .main-title br {display: none;}
+  .short-banner {padding-top: 100px;}
+  .our-classes .main-container {padding-left: 15px;padding-right: 15px;}
+  .latest-articles .main-content {padding: 0 15px;}
+  .event-details #count h3 {font-size: 35px;}
+  .event-details #count span {font-size: 14px;}
+  .event-details .event-bottom-data .details-box {padding-right: 0;padding-left: 20px;}
+  .our-class-details .class-schedule .schedule-table .info {width: 100%;padding-left: 0;}
+  #isotop-gallery-wrapper .isotop-item, #isotop-gallery-wrapper .grid-sizer {width: 100%;}
+  .theme-pagination ul li a {width: 45px; height: 41px; line-height: 37px;}
+  .blog-details .single-blog-post .post-meta .bottom-widget .user-data {float: left;width: 100%;}
+  .blog-details .single-blog-post .post-meta .bottom-widget .user-data li {margin: 15px 20px 0 0;}
+  .blog-details .single-blog-post .author-text {padding: 50px 15px; text-align: center;}
+  .blog-details .single-blog-post .author-text img {float: none;margin: 0 auto;}
+  .blog-details .single-blog-post .author-text .text {width: 100%;float: none;padding: 15px 0 0;}
+  .blog-details .single-blog-post .comment-area,.blog-details .single-blog-post .comment-form {padding: 50px 15px;}
+  .blog-details .single-blog-post .comment-area .single-comment.reply-comment {margin-left: 30px;}
+  .blog-details .single-blog-post .comment-area .single-comment .comment .reply {position: static;margin-top: 10px;}
+  .blog-details .single-blog-post .author-text {padding-top: 100px;}
+}
+/*(max-width: 575px)*/
+
+@media (max-width: 650px) {
+  #success, #error {
+    width: 86%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 7%;
+    padding: 30px 10px;
+  } 
+}
