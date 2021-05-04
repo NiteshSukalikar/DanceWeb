@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Constant } from 'src/app/utility/constant';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  SlideOptions = { items: 3, dots: true, nav: false }; 
-  constructor() { }
+  bioDesc = Constant;
+  SlideOptions = { items: 3, dots: true, nav: false };
+  constructor(private router: Router,private route:ActivatedRoute) {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  scrollTo(FacultyFirst) {
+    this.router.navigate(['/faculty'], { queryParams: { faculty: FacultyFirst }, relativeTo: this.route });
   }
-
 }

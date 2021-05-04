@@ -12,10 +12,10 @@
               Guru Sangeetacharya Mrs. Vaishali Dudhe. She has been a consistent and
               dedicated learner over the years. Her commitment to the art form is a benchmark
               for the fellow students.</p>
-  
+
             <a href="#" class="read-more wow fadeInLeft animated" data-wow-delay="0.8s">Read More
               <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
-  
+
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
             </div>
           </div> -->
     </div>
-  
+
     <div class="section-spacing our-feature-one">
       <img src="../../../assets/images/shape/1.png" alt="" class="shape">
       <div class="container">
@@ -76,7 +76,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="section-spacing about-us">
       <img src="../../../assets/images/shape/3.png" alt="" class="shape-two">
       <div class="main-container clearfix">
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-  
+
         <div class="inner-container right-content">
           <div class="wrapper">
             <div class="theme-title-one">
@@ -107,7 +107,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="section-spacing">
       <div class="our-fact">
         <div class="container">
@@ -155,7 +155,7 @@
                 </div>
               </div>
             </div>
-  
+
             <div class="col-lg-6 col-12">
               <div class="strategy-section">
                 <div class="row">
@@ -180,7 +180,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="section-spacing">
       <div class="client-section">
         <div class="theme-title-one text-center">
@@ -188,42 +188,44 @@
           <h2 class="main-title">What Our Customers <br>Are Saying!!</h2>
         </div>
         <div class="wrapper">
-          <!-- <owl-carousel class="client-slider" [options]="SlideOptions" [carouselClasses]="['owl-theme', 'sliding']">
+          <div class="client-slider">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="text-wrapper">
-                    <p>“My 9 year old shuffle-ball-steps her way through the day, twirls in the checkout
-                      line and chasses to the bus! Thank you for the incredible role models & opportunity.
-                      We Love You!”</p>
+                    <p>{{bioDesc.faculty1shortDesc}}</p>
                     <img src="../../../assets/images/home/3.jpg" alt="">
-                    <h6>Mahfuz RIad</h6>
-                    <span>Founder</span>
+                    <h6>{{bioDesc.firstFaculty}}</h6>
+                    <span>{{bioDesc.profession}}</span>
                   </div>
                 </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="text-wrapper">
-                    <p>“My 9 year old shuffle-ball-steps her way through the day, twirls in the checkout
-                      line and chasses to the bus! Thank you for the incredible role models & opportunity.
-                      We Love You!”</p>
+                    <p>{{bioDesc.faculty2shortDesc}}</p>
                     <img src="../../../assets/images/home/3.jpg" alt="">
-                    <h6>Mahfuz RIad</h6>
-                    <span>Founder</span>
+                    <h6>{{bioDesc.secondFaculty}}</h6>
+                    <span>{{bioDesc.profession}}</span>
                   </div>
                 </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="text-wrapper">
-                    <p>“My 9 year old shuffle-ball-steps her way through the day, twirls in the checkout
-                      line and chasses to the bus! Thank you for the incredible role models & opportunity.
-                      We Love You!”</p>
+                    <p>{{bioDesc.faculty3shortDesc}}</p>
                     <img src="../../../assets/images/home/3.jpg" alt="">
-                    <h6>Mahfuz RIad</h6>
-                    <span>Founder</span>
+                    <h6>{{bioDesc.thirdFaculty}}</h6>
+                    <span>{{bioDesc.profession}}</span>
                   </div>
                 </div>
-              </owl-carousel> -->
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  
+
     <div class="section-spacing">
       <div class="our-team">
         <img src="../../../assets/images/shape/1.png" alt="" class="shape">
@@ -234,14 +236,14 @@
             <a href="#" class="theme-button-two">See all members <span></span></a>
           </div>
         </div>
-  
+
         <div class="main-content">
           <div class="team-slider">
             <div class="row">
               <div class="col-xl-3 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="single-team-member">
-                    <div class="img-box">
+                    <div class="img-box"  (click)="scrollTo('item1')">
                       <img src="../../../assets/images/team/1.jpg" alt="">
                       <ul>
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -251,8 +253,8 @@
                       </ul>
                     </div>
                     <div class="text">
-                      <h6>Mahfuz Riad</h6>
-                      <p>Dance MANAGER</p>
+                      <h6>{{bioDesc.firstFaculty}}</h6>
+                      <p>{{bioDesc.profession}}</p>
                     </div>
                   </div>
                 </div>
@@ -260,7 +262,7 @@
               <div class="col-xl-3 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="single-team-member">
-                    <div class="img-box">
+                    <div class="img-box" (click)="scrollTo('item2')">
                       <img src="../../../assets/images/team/2.jpg" alt="">
                       <ul>
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -270,8 +272,8 @@
                       </ul>
                     </div>
                     <div class="text">
-                      <h6>Alex Srri</h6>
-                      <p>Hip-Hop Expert</p>
+                      <h6>{{bioDesc.secondFaculty}}</h6>
+                      <p>{{bioDesc.profession}}</p>
                     </div>
                   </div>
                 </div>
@@ -279,7 +281,7 @@
               <div class="col-xl-3 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="single-team-member">
-                    <div class="img-box">
+                    <div class="img-box" (click)="scrollTo('item3')">
                       <img src="../../../assets/images/team/3.jpg" alt="">
                       <ul>
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -289,8 +291,8 @@
                       </ul>
                     </div>
                     <div class="text">
-                      <h6>Malik Arman</h6>
-                      <p>Pre-Ballet Expert</p>
+                      <h6>{{bioDesc.thirdFaculty}}</h6>
+                      <p>{{bioDesc.profession}}</p>
                     </div>
                   </div>
                 </div>
@@ -298,7 +300,7 @@
               <div class="col-xl-3 col-lg-4 col-sm-6">
                 <div class="item">
                   <div class="single-team-member">
-                    <div class="img-box">
+                    <div class="img-box" (click)="scrollTo('item4')">
                       <img src="../../../assets/images/team/3.jpg" alt="">
                       <ul>
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -308,8 +310,8 @@
                       </ul>
                     </div>
                     <div class="text">
-                      <h6>Malik Arman</h6>
-                      <p>Pre-Ballet Expert</p>
+                      <h6>{{bioDesc.forthFaculty}}</h6>
+                      <p>{{bioDesc.profession}}</p>
                     </div>
                   </div>
                 </div>
@@ -319,9 +321,8 @@
         </div>
       </div>
     </div>
-  
+
     <app-scrollToTop></app-scrollToTop>
-  
+
   </div>
 </div>
-

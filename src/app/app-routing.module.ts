@@ -50,6 +50,14 @@ const appRoutes: Routes = [
   {
     path: "portfolio",
     loadChildren: () => import('./pages/portfolio/portfolio.module').then(m => m.PortfolioModule)
+  },
+  {
+    path: "faculty",
+    loadChildren: () => import('./pages/faculty/faculty.module').then(m => m.FacultyModule)
+  },
+  {
+    path: "founder",
+    loadChildren: () => import('./pages/founder/founder.module').then(m => m.FounderModule)
   }
 ];
 

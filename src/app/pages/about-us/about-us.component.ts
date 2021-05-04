@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Constant } from 'src/app/utility/constant';
 
 @Component({
   selector: 'app-about-us',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
+  bioDesc = Constant;
   constructor() { }
 
   ngOnInit() {

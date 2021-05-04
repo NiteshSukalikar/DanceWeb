@@ -860,11 +860,11 @@ body .theme-button-two:hover:after {right: auto;left: 17px;}
 .client-section .wrapper {padding-top: 45px;}
 .client-section .text-wrapper {
   background: #fff;
+  color: #1b1b1b;
   box-shadow: 0px 15px 60px 0px rgba(222, 222, 222, 0.35);
   text-align: center;
   padding: 70px 40px 45px;
   margin: 60px 0;
-  opacity: 0.4;
 }
 .owl-carousel .owl-item img {
   width: 21% !important;

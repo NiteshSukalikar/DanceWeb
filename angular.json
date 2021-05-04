@@ -27,15 +27,15 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/vendor/jquery.2.2.3.min.js",
-              "src/assets/js/theme.js",
+              "src/assets/vendor/jquery.2.2.3.min.js",              
               "src/assets/vendor/popper.js/popper.min.js",
               "src/assets/vendor/bootstrap/js/bootstrap.min.js",
               "src/assets/vendor/menu/src/js/jquery.slimmenu.js",
               "src/assets/vendor/aos-next/dist/aos.js",
               "src/assets/vendor/jquery.appear.js",
               "src/assets/vendor/jquery.countTo.js",
-              "src/assets/vendor/fancybox/dist/jquery.fancybox.min.js"
+              "src/assets/vendor/fancybox/dist/jquery.fancybox.min.js",
+              "src/assets/js/theme.js"
             ]
           },
           "configurations": {
