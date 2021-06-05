@@ -1,0 +1,33 @@
+<div class="sidenav">
+	<div class="login-main-text">
+		<h2>Login Page</h2>
+		<p>Login or register from here to access.</p>
+	</div>
+</div>
+<div class="main">
+	<div class="col-md-6 col-sm-12">
+		<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+			<div class="mb-3">
+				<label for="exampleRole" class="form-label">Role</label>
+				<input type="text" disabled formControlName="role" class="form-control" >
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label">Email address</label>
+				<input type="email" formControlName="email" email class="form-control" id="exampleInputEmail1"
+					aria-describedby="emailHelp">
+				<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			</div>
+			<div class="mb-3 alert alert-danger" *ngIf="!loginForm.controls.email.valid  && (loginForm.controls.email.touched)">
+				<div>Email is required & should be in Proper format</div>
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputPassword1" class="form-label">Password</label>
+				<input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<div class="mb-3">
+				<a id="exampleForgotPassword" class="form-label">Forgot Password ?</a>
+			</div>
+			<button type="submit" [disabled]="!loginForm.valid" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+</div>

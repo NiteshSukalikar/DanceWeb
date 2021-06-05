@@ -7,6 +7,7 @@ import {
   Router,
   RouterEvent,
 } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -16,18 +17,28 @@ import {
 export class AppComponent implements OnInit {
   title = 'snm-web-app';
   loading = true;
+  isDashboardPage: boolean;
 
   constructor(private router: Router) {}
 
   ngOnInit() {
-    this.router.events.subscribe((e: RouterEvent) => {
-      this.navigationInterceptor(e);
-    });
+    // this.router.events.subscribe((e: RouterEvent) => {
+    //   this.navigationInterceptor(e);
+    // });
+    this.router.events
+      .pipe(filter((event) => event instanceof NavigationEnd))
+      .subscribe((event:any) => {
+        if (event.url == '/' || event.url == '/login') {
+          this.isDashboardPage = false;
+        }else{
+          this.isDashboardPage = true;
+        }
+      });
   }
 
   navigationInterceptor(event: RouterEvent): void {
     if (event instanceof NavigationStart) {
-     console.log('page loading');
+      console.log('page loading');
       this.loading = true;
     }
     if (event instanceof NavigationEnd) {

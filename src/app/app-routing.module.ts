@@ -4,6 +4,14 @@ import { Routes, RouterModule, PreloadAllModules } from "@angular/router";
 const appRoutes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },  
   {
+    path: "login",
+    loadChildren: () => import('./pages/auth/login/login.module').then(m => m.LoginModule)
+  },
+  {
+    path: "signup",
+    loadChildren: () => import('./pages/auth/sign-up/sign-up.module').then(m => m.SignUpModule)
+  },
+  {
     path: "home",
     loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule)
   },
@@ -58,13 +66,17 @@ const appRoutes: Routes = [
   {
     path: "founder",
     loadChildren: () => import('./pages/founder/founder.module').then(m => m.FounderModule)
+  },
+  {
+    path: "syllabus",
+    loadChildren: () => import('./pages/syllabus/syllabus.module').then(m => m.SyllabusModule)
   }
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(appRoutes, {
-      preloadingStrategy: PreloadAllModules,
+      useHash:true
     }),
   ],
   exports: [RouterModule],

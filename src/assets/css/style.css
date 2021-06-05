@@ -69,6 +69,7 @@
 @import url('../vendor/jquery-ui/jquery-ui.css');
 /*----Flaticon-------*/
 @import url('../fonts/icon/font/flaticon.css');
+@import url('../fonts/mycollection/font/flaticon.css');
 
 
 
@@ -485,8 +486,8 @@ body .theme-button-two:hover:after {right: auto;left: 17px;}
 .banner-image{
     position: relative;
     background-color: #f8fafc;
-    background-image: url(../images/home/snm.jpeg);
-    background-position: center;
+    background-image: url('../images/Shraddha_Bhide/DSC_8371.jpg');
+    background-position: left top;
     background-size: cover;
     z-index: 0;
     height: 59.5rem;
@@ -730,7 +731,7 @@ body .theme-button-two:hover:after {right: auto;left: 17px;}
 .our-services .service-block p {padding: 28px 0 55px;}
 /*--------------------- Our Fact ---------------------*/
 .our-fact {
-  background: url(../images/shape/bg.png) no-repeat center;
+  background: url('../images/shape/bg.png') no-repeat center;
   background-size: cover;
   padding: 70px 0 0;
 }

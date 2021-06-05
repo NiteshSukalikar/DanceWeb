@@ -2,12 +2,12 @@
   <header class="theme-main-menu clearfix" [ngClass]="{
       'dark-color':isLogin == false
     }">
-    <div class="logo"><a routerLink="/home"><img src="../../../assets/images/logo/logo.png" alt=""></a></div>
+    <div class="logo"><a routerLink="/home"><img style="height: 50px;" src='../../../../assets/images/logo/logo1.svg' alt=""></a></div>
 
     <div class="right-widget">
       <ul class="clearfix">
-        <li class="cart-button"><a routerLink="/home"><i class="flaticon-001-shopping-bag"></i></a></li>
-        <li class="search-option">
+        <li class="cart-button"><a routerLink="/home"><i class="flaticon-credit-card"></i></a></li>
+        <!-- <li class="search-option">
           <div class="dropdown">
             <button type="button" class="dropdown-button" data-toggle="dropdown"><i
                 class="flaticon-002-search"></i></button>
@@ -16,7 +16,7 @@
               <button><i class="fa fa-search"></i></button>
             </form>
           </div>
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -24,42 +24,44 @@
     <div class="menu-wrapper">
       <nav id="mega-menu-holder" class="clearfix">
         <ul class="clearfix">
-          <li><a routerLink="/home">Home</a></li>
-          <li><a routerLink="/founder">Founder</a></li>
-          <li><a routerLink="/faculty">Faculty</a></li>
-          <li><a>Events</a>
-            <ul class="dropdown">
-              <li><a routerLink="/event">Events</a></li>
-              <li><a routerLink="/event-details">Events Details</a></li>
-              <li><a href="#">Third Level menu</a>
-                <ul>
-                  <li><a href="#">Demo one</a></li>
-                  <li><a href="#">Demo two</a></li>
-                </ul>
-              </li>
-            </ul>
+          <li><a routerLink="/home" class="nav-item nav-link active">Home</a></li>
+          <li><a routerLink="/founder" class="nav-item nav-link active">Founder</a></li>
+          <li><a routerLink="/faculty" class="nav-item nav-link active">Faculty</a></li>
+          <li><a routerLink="/event" class="nav-item nav-link active">Events</a></li>
+          <!-- <li>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle anchor-style" data-toggle="dropdown">Our
+                Classes</a>
+              <div class="dropdown-menu">
+                <a routerLink="/our-class" class="dropdown-item">Our Class</a>
+                <a routerLink="/class-details" class="dropdown-item">Class Details</a>
+              </div>
+            </div>
+          </li> -->
+          <li>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle anchor-style" data-toggle="dropdown">About Us</a>
+              <div class="dropdown-menu">
+                <!-- <a routerLink="/about-us" class="dropdown-item">About Us</a> -->
+                <!-- <a routerLink="/syllabus" class="dropdown-item">Syllabus</a> -->
+                <a routerLink="/our-class" class="dropdown-item">Our Class</a>
+                <a routerLink="/portfolio" class="dropdown-item">Protfolio</a>
+                <a routerLink="/faq" class="dropdown-item">Faq</a>
+              </div>
+            </div>
           </li>
-          <li><a>Our Classes</a>
-            <ul class="dropdown">
-              <li><a routerLink="/our-class">Our Class</a></li>
-              <li><a routerLink="/class-details">Class Details</a></li>
-            </ul>
+          <!-- <li>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle anchor-style" data-toggle="dropdown">Blog</a>
+              <div class="dropdown-menu">
+                <a routerLink="/blog" class="dropdown-item">Blog</a>
+                <a routerLink="/blog-details" class="dropdown-item">Blog details</a>
+              </div>
+            </div>
+          </li> -->
+          <li>
+            <a href="/contact" class="nav-item nav-link active">Contact</a>
           </li>
-          <li><a>Pages</a>
-            <ul class="dropdown">
-              <li><a routerLink="/about-us">About Us</a></li>
-              <li><a routerLink="/our-studio">Our Studio</a></li>
-              <li><a routerLink="/portfolio">Protfolio</a></li>
-              <li><a routerLink="/faq">Faq</a></li>
-            </ul>
-          </li>
-          <li><a>Blog</a>
-            <ul class="dropdown">
-              <li><a routerLink="/blog">Blog</a></li>
-              <li><a routerLink="/blog-details">Blog details</a></li>
-            </ul>
-          </li>
-          <li><a routerLink="/contact">Contact us</a></li>
         </ul>
       </nav>
     </div>

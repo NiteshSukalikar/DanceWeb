@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
     this.route.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((currentPath: any) => {
-        if (currentPath.url === "/home" || currentPath.url === "/") {
+        if (currentPath.url === "/home" || currentPath.url === "/" || currentPath.url === "/founder") {
           this.isLogin = true;
         }else{
           this.isLogin = false
