@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?4e4b1dedf97634b6f34e29cfc0015bea") format("truetype"),
+url("./flaticon.woff?4e4b1dedf97634b6f34e29cfc0015bea") format("woff"),
+url("./flaticon.woff2?4e4b1dedf97634b6f34e29cfc0015bea") format("woff2"),
+url("./flaticon.eot?4e4b1dedf97634b6f34e29cfc0015bea#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4e4b1dedf97634b6f34e29cfc0015bea#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cash": "\f101",
+    "shopping-bag": "\f102",
+    "credit-card": "\f103",
+    "cashless-payment": "\f104",
+);
+
+.flaticon-cash:before {
+    content: map-get($flaticon-map, "cash");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-cashless-payment:before {
+    content: map-get($flaticon-map, "cashless-payment");
+}

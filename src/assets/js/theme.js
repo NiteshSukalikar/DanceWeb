@@ -31,6 +31,14 @@
             });
           }
 
+          $(document).on('ready',function(){
+            $(".dropdown").on('hover',function(){
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if(dropdownMenu.is(":visible")){
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });          
+        });
 
         // -------------------- Remove Placeholder When Focus Or Click
         $("input,textarea").each( function(){

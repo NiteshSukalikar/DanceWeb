@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SharedModule } from './components/shared/shared.module';
 
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,10 @@ import { SharedModule } from './components/shared/shared.module';
     AppRoutingModule,
     SharedModule
   ],
-  providers: [],
+  
+  providers: [
+    {provide : LocationStrategy , useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
