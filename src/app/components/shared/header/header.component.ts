@@ -15,11 +15,14 @@ export class HeaderComponent implements OnInit {
     this.route.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((currentPath: any) => {
-        if (currentPath.url === "/home" || currentPath.url === "/" || currentPath.url === "/founder") {
+        if (currentPath.url === "/home" || currentPath.url === "/" || currentPath.url === "/founder" ||
+        currentPath.url === "/faculty" || currentPath.url.split('?')[0] ==="/faculty") {
           this.isLogin = true;
         }else{
           this.isLogin = false
         }
       });
   }
+
+ 
 }
