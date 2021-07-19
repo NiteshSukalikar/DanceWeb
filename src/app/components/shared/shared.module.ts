@@ -6,8 +6,18 @@ import { ScrollToTopComponent } from './scrollToTop/scrollToTop.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
 
 @NgModule({
-  imports: [CommonModule,FormsModule,ReactiveFormsModule],
-  declarations: [ FooterComponent,ScrollToTopComponent,WhatsappComponent],
-  exports: [ FooterComponent,ScrollToTopComponent,FormsModule,ReactiveFormsModule,WhatsappComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+  ],
+  declarations: [FooterComponent, ScrollToTopComponent, WhatsappComponent],
+  exports: [
+    FooterComponent,
+    ScrollToTopComponent,
+    FormsModule,
+    ReactiveFormsModule,
+    WhatsappComponent,
+  ],
 })
 export class SharedModule {}

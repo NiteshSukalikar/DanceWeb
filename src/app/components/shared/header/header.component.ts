@@ -15,14 +15,23 @@ export class HeaderComponent implements OnInit {
     this.route.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((currentPath: any) => {
-        if (currentPath.url === "/home" || currentPath.url === "/" || currentPath.url === "/founder" ||
-        currentPath.url === "/faculty" || currentPath.url.split('?')[0] ==="/faculty") {
+        if (
+          currentPath.url === '/home' ||
+          currentPath.url === '/' ||
+          currentPath.url === '/founder' ||
+          currentPath.url === '/faculty' ||
+          currentPath.url === '/our-class' ||
+          currentPath.url === '/event' ||
+          currentPath.url === '/portfolio' ||
+          currentPath.url === '/contact'
+        ) {
           this.isLogin = true;
-        }else{
-          this.isLogin = false
+        } else {
+          this.isLogin = false;
         }
       });
   }
 
- 
+  // currentPath.url === "/faculty"
+  // currentPath.url.split('?')[0] ==="/faculty"
 }

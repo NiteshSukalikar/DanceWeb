@@ -116,6 +116,7 @@ const appRoutes: Routes = [
   imports: [
     RouterModule.forRoot(appRoutes, {
       useHash: true,
+      scrollPositionRestoration:'enabled'
     }),
   ],
   exports: [RouterModule],

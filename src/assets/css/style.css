@@ -95,7 +95,7 @@
   width: 40px;
   height: 40px;
   position: relative;
-  border: 4px solid #ff8a73;
+  border: 4px solid #fcbd58;
   top: 50%;
   left:50%;
   margin: -20px 0 0 -20px;
@@ -106,7 +106,7 @@
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #ff8a73;
+  background-color: #fcbd58;
   animation: loader-inner 2s infinite ease-in;
 }
 
@@ -253,7 +253,7 @@
 #isotop-gallery-wrapper .single-item .hover-content>div h3,.theme-siddebar .sidebar-search form button,.theme-siddebar .sidebar-recent-post li .read-more,
 .theme-siddebar .sidebar-recent-post li:hover .title,.single-blog-post:hover .post-meta .blog-title a,.blog-details .single-blog-post .post-meta .bottom-widget .social-icon li a:hover,
 .blog-details .single-blog-post .comment-area .single-comment .comment .reply:hover,.contact-meta-data .title,.contact-meta-data ul li a:hover {
-  color: #ff8a73;
+  color: #fcbd58;
 }
 .top-header-section.fixed,.top-header-section .right-widget .search-option form,#theme-main-banner .camera_caption .read-more:hover,.about-us .right-content .wrapper .read-more:before,
 #theme-main-banner .camera_caption .read-more span,.button--tamaya.color-one::before,.button--tamaya.color-one::after,body .theme-button-two span,
@@ -265,7 +265,7 @@ body .theme-button-two:hover:before,body .theme-button-two:hover:after,.our-fact
 .event-details .event-bottom-data .details-box .box-title:before,.isotop-menu-wrapper li.is-checked,.theme-siddebar .sidebar-list ul li.active a,
 .theme-siddebar .sidebar-list ul li:hover a,.single-blog-post .post-meta .read-more,.single-blog-post .img-box .play-video:hover,.theme-pagination ul li a:hover,
 .theme-pagination ul li.active a,.contact-address .title,.contact-form button:hover  {
-  background: #ff8a73;
+  background: #fcbd58;
 }
 .our-services .service-block .num .icon,.our-event .main-wrapper .event-table .time,.event-details .event-bottom-data .details-box .box-title,
 .event-details .event-bottom-data .details-box table tr td:first-child {
@@ -527,6 +527,7 @@ body .theme-button-two:hover:after {right: auto;left: 17px;}
   line-height: 32px;
   color: #fff;
   padding-bottom: 115px;
+  width: 70%;
 }
 #theme-main-banner .camera_caption .read-more {
   width: 200px;
@@ -632,7 +633,7 @@ body .theme-button-two:hover:after {right: auto;left: 17px;}
   position: absolute;
   z-index: 1;
 }
-.about-us .left-content .img-box .dot:nth-child(1) {background: #ff8a73;left: -50px;top:-6px;}
+.about-us .left-content .img-box .dot:nth-child(1) {background: #fcbd58;left: -50px;top:-6px;}
 .about-us .left-content .img-box .dot:nth-child(2) {background: #ffe6da;left: -12px;top: 35px;}
 .about-us .left-content .img-box .dot:nth-child(3) {background: #4ff0e3;left: 27px;top: 76px;}
 .about-us .left-content .img-box .dot:nth-child(4) {background: #d5f8f6;left: 68px;top: 115px;}
@@ -1857,7 +1858,7 @@ body .theme-button-two:hover:after {right: auto;left: 17px;}
   left: 0;
   color: #000;
 }
-.contact-form {padding-top: 95px;}
+/* .contact-form {padding-top: 95px;} */
 .contact-form .title {
   font-size: 24px;
   font-weight: 600;

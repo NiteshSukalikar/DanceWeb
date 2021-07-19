@@ -7,6 +7,7 @@ import {
   Router,
   RouterEvent,
 } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 import { filter } from 'rxjs/operators';
 
 @Component({

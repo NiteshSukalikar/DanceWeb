@@ -7,18 +7,50 @@
   </div> -->
 
   <div class="theme-inner-banner">
-    <img src="../../../assets/images/shape/13.png" alt="" class="bg-shape">
-    <img src="../../../assets/images/shape/14.png" alt="" class="shape-one">
+    <img height="885px" width="3840px" src="../../../assets/images/Nrutyanaad/DSC_8478.jpg" alt="" class="bg-shape">
+    <!-- <img src="../../../assets/images/shape/14.png" alt="" class="shape-one">
     <img src="../../../assets/images/shape/15.png" alt="" class="shape-two">
-    <img src="../../../assets/images/shape/16.png" alt="" class="shape-three">
+    <img src="../../../assets/images/shape/16.png" alt="" class="shape-three"> -->
     <div class="container">
-      <h2 class="title">Contact</h2>
+      <h2 class="title text-white">Contact</h2>
     </div>
   </div>
 
   <div class="section-spacing section-spacing-bottom">
     <div class="container">
       <div class="row">
+        <div class="col-lg-8 col-md-6">
+          <div class="contact-form">
+              <form [formGroup]="contactForm" class="form-validation" (ngSubmit)="onSubmit()">
+                <h5 class="title">Get In Touch With Us</h5>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Your Name *" name="name" formControlName="name">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" placeholder="Your Email *" name="email" formControlName="email">
+                  </div>
+                  <div class="col-12">
+                    <input type="tel" placeholder="contact" name="contact" formControlName="contact">
+                  </div>
+                </div>
+                <textarea placeholder="Type your message" name="message" formControlName="message"></textarea>
+                <button [disabled]="!contactForm.valid" type="submit">Submit Request</button>
+              </form>
+            <!-- <div class="col-lg-3 col-md-4">
+              <div class="contact-meta-data">
+                <h6 class="title">Meta</h6>
+                <ul>
+                  <li><a href="#">Log in</a></li>
+                  <li><a href="#">Entries RSS</a></li>
+                  <li><a href="#">Comments RSS</a></li>
+                  <li><a href="#">WordPress.org</a></li>
+                  <li><a href="#">Team</a></li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
+        </div>
         <div class="col-lg-4 col-md-6 order-md-last">
           <div class="contact-address">
             <h6 class="title">Easy Contact</h6>
@@ -35,8 +67,13 @@
               </li>
               <li>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <h6>Address</h6>
-                <p>Shop no 1, Somdatta Society, Sector 15, Sanpada Rd, Navi Mumbai 400705</p>
+                <h6>Address 1</h6>
+                <p>Siddhi Nrityakala Mandir, Shop no - 21, Tsp Heights, Sunil Nagar, Near Sunil nagar auto stand, Dombivali east, 421201</p>
+              </li>
+              <li>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h6>Address 2</h6>
+                <p>Krishna Complex, Shop no - 1, Plot no - 7, Sector - 15, Sanpada, 400705</p>
               </li>
             </ul>
           </div>
@@ -47,39 +84,7 @@
           </div>
         </div>
       </div>
-
-      <div class="row contact-form">
-        <div class="col-lg-9 col-md-8">
-          <form action="inc/sendemail.php" class="form-validation" autocomplete="off">
-            <h5 class="title">Get In Touch With Us</h5>
-            <div class="row">
-              <div class="col-md-6">
-                <input type="text" placeholder="Your Name *" name="name">
-              </div>
-              <div class="col-md-6">
-                <input type="email" placeholder="Your Email *" name="email">
-              </div>
-              <div class="col-12">
-                <input type="text" placeholder="Website url" name="web">
-              </div>
-            </div>
-            <textarea placeholder="Type your message" name="message"></textarea>
-            <button>Submit Request</button>
-          </form>
-        </div>
-        <div class="col-lg-3 col-md-4">
-          <div class="contact-meta-data">
-            <h6 class="title">Meta</h6>
-            <ul>
-              <li><a href="#">Log in</a></li>
-              <li><a href="#">Entries RSS</a></li>
-              <li><a href="#">Comments RSS</a></li>
-              <li><a href="#">WordPress.org</a></li>
-              <li><a href="#">Team</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+   
 
       <div class="alert-wrapper" id="alert-success">
         <div id="success">
@@ -99,6 +104,6 @@
       </div>
     </div>
   </div>
-
+  <app-whatsapp></app-whatsapp>
   <app-scrollToTop></app-scrollToTop>
 </div>

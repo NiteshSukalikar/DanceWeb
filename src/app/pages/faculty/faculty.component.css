@@ -1,0 +1,9 @@
+.card {
+    border: 2px solid #fcbd58;
+    border-radius: 3px;
+    background: #f1bd6a85;
+}
+
+.our-team .main-content .single-team-member .text  {
+    background: #f1bd6a85 !important;
+}

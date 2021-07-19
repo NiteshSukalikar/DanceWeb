@@ -8,7 +8,8 @@ export class Constant {
     `;
 
     public static faculty1shortDesc: string = `
-    Ms. Divya Saraf, a young, energetic, passionate Kathak dancer is known for her dedication in Performing Arts. She has been trained in Banaras Gharana of Kathak since the age of 8 under the guidance of Nrityalankar Mrs. Shraddha Bhide. 
+    SNM is just not a class but a second home for me, and I am proud to be a part of SNM family. To have my 15 years of dance journey in SNM under the guidance of my guru Nrityalankar Mrs Shraddha Bhide is a blessing for me. With her constant support and motivation I am able to achieve all my goals in life. Shraddha tai is an amazing teacher devoted to dance. She will listen to you, support you, encourage you and help you understand and correct your techniques, so you can keep improving. She adapts herself to every student, finding brilliant ways to communicate kathak concepts. 
+    Thankful and grateful to have a dance teacher like her. 
     `
 
   public static faculty2Desc: string = `
@@ -20,8 +21,7 @@ export class Constant {
     `;
 
     public static faculty2shortDesc: string = `
-    Ms. Amruta Joshi, is a young and promosing Kathak Performer. Her dancing skills and her grace are praised by connosieours of the art form.
-    Amruta studied kathak from Banaras Gharana. She is a Sr. disciple of Nrityalankar Mrs. Shraddha Bhide.
+    Siddhi Nrityakala Mandir has become an integral and beautiful part of my life since past 8years. Love for Kathak is what binds all of us at the institution together. It's here that I learned that dance isn't just about fun and frolic, but it's about grace, discipline and the responsibility to carry the legacy on. I am intrigued by the way the Guru Shishya parampara is still kept alive and how the students are not mere students but disciples of their Guru. I feel immense pride to be a part of this institution and I am extremely grateful to have Nrityalankar Mrs. Shraddha Bhide as my Guru, who is extremely passionate about her art. She is also tremendously hard-working and always over flowing with new ideas and contents. Her eye for detail and hunger for excellence drives us to achieve impossible feats.
     `
 
   public static faculty3Desc: string = `
@@ -32,7 +32,7 @@ export class Constant {
     `;
 
     public static faculty3shortDesc: string = `
-    Ms. Rashmi Pol, a pasionate and disciplinded person, is a veteran in the SNM Family. She has been a dedicated student of the art form for last 12 years under the able guidance of Guru Nrityalankar Mrs. Shraddha Bhide.
+    Siddhi Nrityakala Mandir is one of the best dance institute for classical dance style - Kathak in Navi Mumbai. The founder Nrityalankar Mrs Shraddha Bhide and faculty members put their heart and soul in each and every student and groom them well. SNM also gives good exposure to students by giving them opportunity to attend various workshops organised by experts in this art form and participate in various competitions. SNM guides each and every student in all manner and transforms them into awesome Performers ..A Kalakaar🥰
     `
 
   public static faculty4Desc: string = `
