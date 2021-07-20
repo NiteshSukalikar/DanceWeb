@@ -1,3 +1,25 @@
 .client-section .text-wrapper {
     height: 50rem !important;
 }
+.theme-title-one .upper-title {
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    #theme-main-banner .camera_caption > div {
+        background: transparent;
+        position: absolute;
+        width: 100%;
+        top: 29.5rem;
+        text-shadow: none;
+        left: 1rem !important;
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-spacing,
+    .theme-siddebar {
+        padding-top: 22rem !important;
+    }
+}

@@ -1,3 +1,7 @@
 .section-spacing{
     padding-top: 100px;
 }
+
+.theme-inner-banner{
+    height: 56rem !important;
+}

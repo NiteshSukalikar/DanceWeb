@@ -4,7 +4,7 @@ export class Constant {
     Ms. Divya Saraf, a young, energetic, passionate Kathak dancer is known for her dedication in Performing Arts. She has been trained in Banaras Gharana of Kathak since the age of 8 under the guidance of Nrityalankar Mrs. Shraddha Bhide. 
     She has won many laurels in her field in India as well as at an international level. She has participated and won awards in national dance competitions and competitions held in Spain and Mauritius.
     Besides being a graceful performer, Divya is a passionate teacher and has been training children, youngsters and adults in Kathak for the past 6 years. She is also working as a professional dancer and has experience of teaching in schools. She has been adding value to the learnings of the SNM students from last 4 years.
-    Already a Nrityavisharad, she aims high and is currently working hard for getting the acredition of being a Nrityalankar.
+    Already a Nrityavisharad, she aims high and is currently working hard for getting the accredition of being a Nrityalankar.
     `;
 
     public static faculty1shortDesc: string = `
@@ -13,7 +13,7 @@ export class Constant {
     `
 
   public static faculty2Desc: string = `
-    Ms. Amruta Joshi, is a young and promosing Kathak Performer. Her dancing skills and her grace are praised by connosieours of the art form.
+    Ms. Amruta Joshi, is a young and promising Kathak Performer. Her dancing skills and her grace are praised by connoisseurs of the art form.
     Amruta studied kathak from Banaras Gharana. She is a Sr. disciple of Nrityalankar Mrs. Shraddha Bhide. She is a Nritya Vishared and is currently pursuing her Nrityalankar accredition.
     She is a skilled and energetic teacher who is dedicated to  the pursuit of imparting knowledge to the students whole heartedly. She has been an integral part of Siddhi Nrityakala Mandir since last 3 years. She has a rich experience of teaching in schools and performing art institutions. 
     She has also choreographed several free style dances integrated with kathak form. 
@@ -21,14 +21,14 @@ export class Constant {
     `;
 
     public static faculty2shortDesc: string = `
-    Siddhi Nrityakala Mandir has become an integral and beautiful part of my life since past 8years. Love for Kathak is what binds all of us at the institution together. It's here that I learned that dance isn't just about fun and frolic, but it's about grace, discipline and the responsibility to carry the legacy on. I am intrigued by the way the Guru Shishya parampara is still kept alive and how the students are not mere students but disciples of their Guru. I feel immense pride to be a part of this institution and I am extremely grateful to have Nrityalankar Mrs. Shraddha Bhide as my Guru, who is extremely passionate about her art. She is also tremendously hard-working and always over flowing with new ideas and contents. Her eye for detail and hunger for excellence drives us to achieve impossible feats.
+    Siddhi Nrityakala Mandir has become an integral and beautiful part of my life since past 8 years. It's here that I learned that dance isn't just about fun and frolic, but it's about grace, discipline and the responsibility to carry the legacy on. I am intrigued by the way the Guru Shishya parampara is still kept alive and how the students are not mere students but disciples of their Guru. I feel immense pride to be a part of this institution and I am extremely grateful to have Nrityalankar Mrs. Shraddha Bhide as my Guru, who is extremely passionate about her art. She is also tremendously hard-working and always over flowing with new ideas and contents. Her eye for detail and hunger for excellence drives us to achieve impossible feats.
     `
 
   public static faculty3Desc: string = `
-    Ms. Rashmi Pol, a pasionate and disciplinded person, is a veteran in the SNM Family. She has been a dedicated student of the art form for last 12 years under the able guidance of Guru Nrityalankar Mrs. Shraddha Bhide. She is a Nritya Visharad and is currently pursuing her Nrityalankar accredition.
+    Ms. Rashmi Pol, a passionate and disciplined person, is a veteran in the SNM Family. She has been a dedicated student of the art form for last 12 years under the able guidance of Guru Nrityalankar Mrs. Shraddha Bhide. She is a Nritya Visharad and is currently pursuing her Nrityalankar accredition.
     She has been a method performer who has been able to consistently impart authentic training to the students with utmost dedication. Her disciplined approach percolates to the students and over the years this important virtue gets embibed in them.
     Her performances and the skill to get the best out of her students have been appreciated by parents as well as masters in the Kathak art form.
-    She is a muti talented personality who is also an Accredited yoga & Aerobics teacher.
+    She is a muti-talented personality who is also an accredited Yoga & Aerobics trainer.
     `;
 
     public static faculty3shortDesc: string = `
@@ -36,8 +36,8 @@ export class Constant {
     `
 
   public static faculty4Desc: string = `
-    Ms. Aishwarya Chodnekar, is pursuing the art form of Kathak from a tender age of 8 years. She has been an integral part of the Siddhi Nrityakala Mandir ever since. She is a Nritya visharad and, under the able guidance of Guru Nrityalankar Sharaddha Bhide, is currently working hard to be accredited as a Nrityalankar 
-    Her performances are graceful and are appreciated by the audience time and again. She has participated in various competions at national level.
+    Ms. Aishwarya Chodnekar, is pursuing the art form of Kathak from a tender age of 8 years. She has been an integral part of the Siddhi Nrityakala Mandir ever since. She is a Nritya visharad and, under the able guidance of Guru Nrityalankar Sharaddha Bhide, is currently working hard to be accredited as a Nrityalankar.
+    Her performances are graceful and are appreciated by the audience time and again. She has participated in various competitions at national level.
     Over the years she has gained the skillsets of being a good Kathak teacher. She has dedicatedly pursued the job of imparting Kathak education to the students and her disciplined approach brings out the best in the students.
     `;
 
