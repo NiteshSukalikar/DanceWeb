@@ -23,7 +23,8 @@ export class HeaderComponent implements OnInit {
           currentPath.url === '/our-class' ||
           currentPath.url === '/event' ||
           currentPath.url === '/portfolio' ||
-          currentPath.url === '/contact'
+          currentPath.url === '/contact' ||
+          currentPath.url === '/readMore'
         ) {
           this.isLogin = true;
         } else {

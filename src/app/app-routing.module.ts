@@ -107,6 +107,11 @@ const appRoutes: Routes = [
       import('./pages/payment/payment.module').then((m) => m.PaymentModule),
   },
   {
+    path: 'readMore',
+    loadChildren: () =>
+      import('./pages/read-more/read-more.module').then((m) => m.ReadMoreModule),
+  },
+  {
     path: '**',
     component: HomeComponent,
   },

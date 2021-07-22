@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Constant } from 'src/app/utility/constant';
 import { VisitorsService } from './visitors.service';
@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   bioDesc = Constant;
   SlideOptions = { items: 3, dots: true, nav: false };
   ipaddress: any;
+  
   constructor(private router: Router, private route: ActivatedRoute,
     private http: HttpClient, private visitorsService:VisitorsService) {}
 
@@ -33,6 +34,7 @@ export class HomeComponent implements OnInit {
       console.log("old way" ,res);      
     })
   }
+
 
   getIp() {
     this.visitorsService.getIpAddress().subscribe(res => {
