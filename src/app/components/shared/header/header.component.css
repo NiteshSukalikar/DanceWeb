@@ -27,3 +27,11 @@
     margin: 0 20px;
     padding: 10px 0 2px;
 }
+
+.header_logo{
+    height: 50px;
+    position: absolute;
+    transform: scale(2.5);
+    left: -44px;
+    top: 8px;
+}
